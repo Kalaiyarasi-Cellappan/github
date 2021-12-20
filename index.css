@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+  --dark-gray: #2f3d46;
+  --font-color-white: #fff;
+  --dark-div-bg: #353535;
+  --main-bg: #cad2c5;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  width: 1.5em;
+  padding: 0.6em;
+}
+
+.company {
+  font-weight: 700;
+  color: var(--font-color-white);
+  letter-spacing: 2px;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  background-color: var(--dark-gray);
+  color: var(--font-color-white);
+  display: flex;
+  grid-auto-flow: column;
+  gap: 1em;
+  align-items: center;
+  place-items: center;
+}
+
+main {
+  background-color: var(--main-bg);
+  padding: 2em;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+  height: 100%;
+}
+
+aside {
+  width: 160px;
+  height: 240px;
+  background-color: var(--dark-div-bg);
+  border-radius: 9px;
+}
+
+#center-section {
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+
+#textbox {
+  background-color: var(--dark-div-bg);
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+  font-size: 0.7em;
+  padding: 0.5em;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+#parent-div {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.grid {
+  background-color: var(--dark-div-bg);
+  width: 130px;
+  height: 80px;
+  border-radius: 6px;
+}
+
+#bigger-div {
+  background-color: var(--dark-div-bg);
+  border-radius: 6px;
+  height: 100px;
+}
